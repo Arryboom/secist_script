@@ -1,9 +1,9 @@
 
-＃secist_script
+# secist_script
 
 由于传播，利用此脚本所提供的工具而造成的任何直接或者间接的后果及损失，均由使用者本人负责，即刻安全以及工具作者不为此承担任何责任。
 
-#说明
+# 说明
 
 此款工具借鉴
 
@@ -17,7 +17,7 @@ web_delivery => msf
 
 Invoke => powershell
 
-#用法（Usage）：
+# 用法（Usage）：
 
 git clone https://github.com/demonsec666/secist_script.git
 
@@ -27,7 +27,7 @@ sudo chmod -R 777 .
 
 4. sudo ./secist_script.sh
 
-#例子 secist> 7
+# 例子 secist> 7
 
      < avoidz Payload >
       --------------------
@@ -55,12 +55,12 @@ sudo chmod -R 777 .
 
 Tool To bypass most A.V - dev-labs
 
-#msf系列教程
+# msf系列教程
 
 Metasploit 系列教程 => 链接:https://pan.baidu.com/s/1dFzPkJZ 密码:evwg
 
 Metasploit 系列教程 第八课=> www.ggsec.cn/MSF8-0.html
-#mingw32模块安装（如缺少）
+# mingw32模块安装（如缺少）
 vim  /etc/apt/sources.list
 
 deb http://ftp.de.debian.org/debian/ jessie  main
