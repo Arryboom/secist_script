@@ -36,7 +36,7 @@ sudo chmod -R 777 .
                              (__)\       )\/\ 
                                  ||----w |    
                                  ||     ||     
-+------------++-------------------------++-----------------------+ 即刻安全周年庆版v1.6 (secist----2017.7.14)
++------------++-------------------------++-----------------------+ v1.6 (secist----2017.7.14)
 
         你的IP地址 :192.168.1.103
         系统版本 :Kali GNU/Linux Rolling \n \l
@@ -55,14 +55,19 @@ sudo chmod -R 777 .
 
 Tool To bypass most A.V - dev-labs
 
-#作者（About Me）
-
-即刻安全 => demon
-
-博客 => www.ggsec.cn
-
-团队博客 =>www.secist.com
+#msf系列教程
 
 Metasploit 系列教程 => 链接:https://pan.baidu.com/s/1dFzPkJZ 密码:evwg
 
 Metasploit 系列教程 第八课=> www.ggsec.cn/MSF8-0.html
+#mingw32模块安装（如缺少）
+vim  /etc/apt/sources.list
+
+deb http://ftp.de.debian.org/debian/ jessie  main
+
+apt-get updete
+
+apt-get install mingw-w64 -y
+
+apt-get install  mingw32
+
